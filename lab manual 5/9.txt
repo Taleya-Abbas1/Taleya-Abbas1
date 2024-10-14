@@ -1,0 +1,26 @@
+#include<iostream>
+using namespacce std;
+int timeTravel(int hours , int min , int travels )
+main()
+{
+  int hours ;
+  int mins ;
+  cout<<"Enter time in hours :";
+  cin>>hours;
+  cout<<"Enter time in mins :";
+  cin>>mins;
+  if ( hours > 0 && hours < 24 && mins > 0  && mins < 59 )
+  {
+   timeTravel(hours , mins , travel);
+  }
+
+}
+int timeTravel(int hours , int mins , int travels )
+{ 
+  int Totalmins = hours*60 + mins +travels *15 ;
+  int newHours ;
+  int newMintues ;
+  newHours = (Totalmins / 60) % 24;
+  newMins = Totalmins % 60 ;
+  cout<<"
+    
