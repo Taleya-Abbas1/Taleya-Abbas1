@@ -4,7 +4,7 @@ using namespace std;
 void printheader();
 int menu();
 float calculateCostProduct(float price , int quantity , float tax);
-void printProductData(string name, float price , int quantity , float tax, float total);
+void printProductData(string name1, float price , int quantity , float tax, float total);
 
 main()
 {
